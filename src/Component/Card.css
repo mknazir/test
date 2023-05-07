@@ -1,0 +1,12 @@
+.coursesContent{
+    margin: 1rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .coursesContent{
+        flex-wrap: wrap;
+        margin: 1rem 0rem;
+    }
+}
